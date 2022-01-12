@@ -1,0 +1,1 @@
+FLASK_APP="sostrades_authapi/server.py"
