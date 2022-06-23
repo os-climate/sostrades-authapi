@@ -27,3 +27,9 @@ This certificate is used to send a request to the SoSTrades API server via SSL v
 If you want to run the authAPI locally:
 python \sostrades_authapi\sostrades_authapi.py
 
+## License
+The sostrades-authapi source code is distributed under the Apache License Version 2.0.
+A copy of it can be found in the LICENSE file.
+
+The sostrades-authapi product depends on other software which have various licenses.
+The list of dependencies with their licenses is given in the CREDITS.rst file.
