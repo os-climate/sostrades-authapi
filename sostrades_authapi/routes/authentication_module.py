@@ -83,7 +83,7 @@ def saml_acs():
             resp = requests.request(
                 method=request.method,
                 url=request.url.replace(request.host_url, relay),
-                data=data, verify=ssl_path)
+                data=data, verify=False)
 
             if resp.status_code == 200:
                 app.logger.debug(f'Response content: {resp.json()}')
